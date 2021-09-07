@@ -1,7 +1,6 @@
 import os
 import discord
 from discord.ext import commands
-from keep_alive import keep_alive
 from xlsx import *
 from fecha import *
 
@@ -103,5 +102,4 @@ async def list(ctx):
     print("File name: ", nombreArchivo)
     print("----------------------------------------------------")
     print()
-keep_alive()
 client.run(DISCORD_TOKEN)
