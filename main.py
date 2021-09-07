@@ -4,7 +4,6 @@ from discord.ext import commands
 from xlsx import *
 from fecha import *
 
-DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
 
 client = commands.Bot(command_prefix='o<')
 
